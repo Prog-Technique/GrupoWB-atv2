@@ -17,7 +17,7 @@ export default class FormularioCadastroCliente extends Component {
                             <label htmlFor="name">Nome</label>
                         </div>
 
-                        <div className="input-field col s6">
+                        <div className="input-field col s5">
                             <input id="social_name" type="text" className="validate" />
                             <label htmlFor="social_name">Nome social</label>
                         </div>
@@ -29,7 +29,7 @@ export default class FormularioCadastroCliente extends Component {
                             <label htmlFor="genero">Gênero</label>
                         </div>
 
-                        <div className="input-field col s6">
+                        <div className="input-field col s5">
                             <input id="telefone" type="text" className="validate" />
                             <label htmlFor="telefone">Telefone</label>
                         </div>
@@ -42,7 +42,7 @@ export default class FormularioCadastroCliente extends Component {
                             <label htmlFor="cpf">CPF</label>
                         </div>
 
-                        <div className="input-field col s6">
+                        <div className="input-field col s5">
                             <input id="emissaocpf" type="date" className="validate" />
                             <label htmlFor="emissaocpf">Data de emissão do CPF</label>
                         </div>
@@ -54,7 +54,7 @@ export default class FormularioCadastroCliente extends Component {
                             <label htmlFor="rg">RG</label>
                         </div>
 
-                        <div className="input-field col s6">
+                        <div className="input-field col s5">
                             <input id="emissaorg" type="date" className="validate" />
                             <label htmlFor="emissaorg">Data de emissão do RG</label>
                         </div>

@@ -21,7 +21,7 @@ export class Listagens extends Component {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>0 clientes que mais consumiram em quantidaded</td>
+                                <td>10 clientes que mais consumiram em quantidade</td>
                                 <td data-label="Ações">
                                     <div className='Column'>
                                         <Link to="/">Visualizar</Link>
