@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+.button, .submit{
+    background-color: #eb87cd;
+    margin: 2% 0%;
+}
+
+.button:hover, .submit:hover{
+    background-color: #c20499;
+}
+
+.forms{
+    margin: 0% 20%;
+}
+
+.mb-2{
+    text-align: center;
+}
+
+.visu{
+    display: flex;
+    justify-content: center;
+}

@@ -2,6 +2,7 @@
 import { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import Header from "../../component/header";
+import "../style.css";
 
 export class EditarCliente extends Component {
     render(){
@@ -9,9 +10,9 @@ export class EditarCliente extends Component {
         return (
             <><Header />
             <main>
-                <h1>Editar Cliente:"Amanda"</h1>
-                <Button  variant="outline-dark" href='/clientes'>Voltar</Button>
+                <h1>Editar Cliente: "Amanda"</h1>
                 <div className="forms">
+                <Button className="button" variant="outline-dark" href='/clientes'>Voltar</Button>
                     <form>
                         <div className="field">
                             <label htmlFor="Nome" >Nome:</label>

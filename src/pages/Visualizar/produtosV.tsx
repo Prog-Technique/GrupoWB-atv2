@@ -10,21 +10,16 @@ export class VisualizarProduto extends Component {
             <><Header />
             <main>
                 <h1>Visualizar Produto: "Shampoo Match"</h1>
-                <Button variant="outline-dark" href='/produtos'>Voltar</Button>
-                <Card
-                bg="white"
-                text="dark"
-                style={{ width: '18rem' }}
-                className="mb-2"
-                >
-                    <Card.Header>ID: 1</Card.Header>
-                    <Card.Body>
-                        <Card.Title>Shampoo Match</Card.Title>
-                        <Card.Text>
-                            Preço: R$15
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                <Button className="button" variant="outline-dark" href='/produtos'>Voltar</Button>
+                <div className='visu'>
+                    <Card bg="white" text="dark" style={{ width: '18rem' }} className="mb-2">
+                        <Card.Header>ID: 1</Card.Header>
+                        <Card.Body>
+                            <Card.Title>Shampoo Match</Card.Title>
+                            <Card.Text>Preço: R$15</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
             </main>
             </>
         );

@@ -10,8 +10,9 @@ export class EditarProduto extends Component {
             <><Header />
             <main>
                 <h1>Editar Produto</h1>
-                <Button  variant="outline-dark" href='/Produtos'>Voltar</Button>
+                
                 <div className="forms">
+                <Button className="button" variant="outline-dark" href='/Produtos'>Voltar</Button>
                     <form>
                         <div className="field">
                             <label htmlFor="Produto">Produto:</label>
