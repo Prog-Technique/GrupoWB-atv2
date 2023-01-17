@@ -17,6 +17,7 @@ export class Clientes extends Component {
                                 <th scope="col">Nome</th>
                                 <th scope="col">Gênero</th>
                                 <th scope="col">Ações</th>
+                                <th scope="col">Adicionar</th>
                             </tr>
                         </thead>
 
@@ -28,7 +29,13 @@ export class Clientes extends Component {
                                     <div className='Column'>
                                         <Link to="/editar_cliente/1">Editar</Link> <br/>
                                         <Link to="/clientes/1">Visualizar</Link> <br/>
-                                        <Link to="/">Excluir</Link>
+                                        <Link to="#">Excluir</Link>
+                                    </div>
+                                </td>
+                                <td data-label="Adicionar">
+                                    <div className='Column'>
+                                        <Link to="/adicionar_produto/1">Produto</Link> <br/>
+                                        <Link to="/adicionar_servico/1">Serviço</Link> 
                                     </div>
                                 </td>
                             </tr>
@@ -38,9 +45,15 @@ export class Clientes extends Component {
                                 <td data-label="Gênero">Masculino</td>
                                 <td data-label="Ações">
                                     <div className='Column'>
-                                        <Link to="/editar_cliente/2">Editar</Link> <br/>
-                                        <Link to="/clientes/2">Visualizar</Link> <br/>
-                                        <Link to="/">Excluir</Link>
+                                        <Link to="#">Editar</Link> <br/>
+                                        <Link to="#">Visualizar</Link> <br/>
+                                        <Link to="#">Excluir</Link>
+                                    </div>
+                                </td>
+                                <td data-label="Adicionar">
+                                    <div className='Column'>
+                                        <Link to="#">Produto</Link> <br/>
+                                        <Link to="/#">Serviço</Link> 
                                     </div>
                                 </td>
                             </tr>

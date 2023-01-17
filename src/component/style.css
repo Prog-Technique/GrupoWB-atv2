@@ -8,19 +8,12 @@ header {
     background-color: #eb87cd;
 }
 
-.logo p {
+p {
     font-size: 1.8em;
     font-weight: bold;
     color: white;
 }
 
-.logo img {
-    height: 4vh;
-}
-
-header img+p {
-    margin-left: 0.4em;
-}
 
 .nav-links a {
     text-decoration: none;
@@ -56,7 +49,7 @@ header img+p {
     /*COM RELAÇÃO AOS PAIS*/
     display: none;
     border-radius: 8px;
-    top: 40px;
+    top: 42px;
     left: 1px;
 }
 

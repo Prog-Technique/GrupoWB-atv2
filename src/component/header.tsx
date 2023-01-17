@@ -7,7 +7,9 @@ export default class Header extends Component {
         return (
             <header>
                 <div className='logo'>
+                <Link to="/">
                     <p>WB</p>
+                </Link>
                 </div>
 
                 <ul className="nav-links">

@@ -11,7 +11,7 @@ export class EditarServico extends Component {
             <main>
                 <h1>Editar Serviço</h1>
                 <div className="forms">
-                <Button className="button" variant="outline-dark" href='/Servicos'>Voltar</Button>
+                <Button className="button" variant="outline-dark" href='/servicos'>Voltar</Button>
                     <form>
                         <div className="field">
                             <label htmlFor="Servico">Serviço:</label>

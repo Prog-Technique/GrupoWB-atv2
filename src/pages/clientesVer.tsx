@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-pascal-case */
 import { Component } from 'react';
 import { Button, Card } from 'react-bootstrap';
-import Header from "../../component/header";
+import Header from "../component/header";
 
 export class VisualizarCliente extends Component {
     render(){

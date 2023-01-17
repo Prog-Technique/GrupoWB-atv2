@@ -1,33 +1,50 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../component/header";
-import './styles.css';
 
-export class Servicos extends Component {
+export class AddServico extends Component {
     render() {
 
         return (
             <><Header /><main>
+
+                <h1>Serviços adicionados ao Cliente</h1>
+
+                <div className='container-table'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td data-label="#">Barba</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <h1>Serviços</h1>
 
                 <div className='container-table'>
                     <table>
                         <thead>
                             <tr>
-                                <th scope="col">Servico</th>
+                                <th scope="col">Serviço</th>
                                 <th scope="col">Preço</th>
-                                <th scope="col">Ações</th>
+                                <th scope="col">Ação</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
-                                <td data-label="Servico">Unhas</td>
+                            <td data-label="Servico">Unhas</td>
                                 <td data-label="Preço">35.00</td>
-                                <td data-label="Ações">
+                                <td data-label="Ação">
                                     <div className='Column'>
-                                        <Link to="/editar_servico/1">Editar</Link> <br/>
-                                        <Link to="#">Excluir</Link>
+                                        <Link to="#">Adicionar</Link>
                                     </div>
                                 </td>
                             </tr>
@@ -35,10 +52,9 @@ export class Servicos extends Component {
                             <tr>
                                 <td data-label="Servico">Barba</td>
                                 <td data-label="Preço">10.00</td>
-                                <td data-label="Ações">
+                                <td data-label="Ação">
                                     <div className='Column'>
-                                        <Link to="#">Editar</Link> <br/>
-                                        <Link to="#">Excluir</Link>
+                                        <Link to="#">Adicionar</Link>
                                     </div>
                                 </td>
                             </tr>

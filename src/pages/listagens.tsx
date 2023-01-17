@@ -24,7 +24,7 @@ export class Listagens extends Component {
                                 <td>10 clientes que mais consumiram em quantidade</td>
                                 <td data-label="Ações">
                                     <div className='Column'>
-                                        <Link to="/">Visualizar</Link>
+                                        <Link to="#">Visualizar</Link>
                                     </div>
                                 </td>
                             </tr>
@@ -32,7 +32,7 @@ export class Listagens extends Component {
                                 <td>Todos clientes por gênero</td>
                                 <td data-label="Ações">
                                     <div className='Column'>
-                                        <Link to="/">Visualizar</Link>
+                                        <Link to="#">Visualizar</Link>
                                     </div>
                                 </td>
                             </tr>
@@ -40,7 +40,7 @@ export class Listagens extends Component {
                                 <td>Listagem geral de produtos e serviços mais consumidos</td>
                                 <td data-label="Ações">
                                     <div className='Column'>
-                                        <Link to="/">Visualizar</Link>
+                                        <Link to="#">Visualizar</Link>
                                     </div>
                                 </td>
                             </tr>
@@ -48,7 +48,7 @@ export class Listagens extends Component {
                                 <td>10 clientes que menos consumiram produtos ou serviços</td>
                                 <td data-label="Ações">
                                     <div className='Column'>
-                                        <Link to="/">Visualizar</Link>
+                                        <Link to="#">Visualizar</Link>
                                     </div>
                                 </td>
                             </tr>
@@ -56,7 +56,7 @@ export class Listagens extends Component {
                                 <td>5 clientes que mais consumiram em valor</td>
                                 <td data-label="Ações">
                                     <div className='Column'>
-                                        <Link to="/">Visualizar</Link>
+                                        <Link to="#">Visualizar</Link>
                                     </div>
                                 </td>
                             </tr>

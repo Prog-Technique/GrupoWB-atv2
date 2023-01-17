@@ -11,9 +11,10 @@ import { Listagens } from './pages/listagens';
 import { EditarCliente } from './pages/Editar/clientes';
 import { EditarServico } from './pages/Editar/servicos';
 import { EditarProduto } from './pages/Editar/produtos';
-import { VisualizarCliente } from './pages/Visualizar/clientesV';
-import { VisualizarServico } from './pages/Visualizar/servicosV';
-import { VisualizarProduto } from './pages/Visualizar/produtosV';
+import { VisualizarCliente } from './pages/clientesVer';
+import { AddProduto } from './pages/Adicionar/clientesVprodutos';
+import { AddServico } from './pages/Adicionar/clientesVservicos';
+
 
 export default class  RoutesApp extends Component {
     render(){
@@ -36,8 +37,9 @@ export default class  RoutesApp extends Component {
                     <Route path='/editar_servico/1' element={<EditarServico/>}/>
                     
                     <Route path='/clientes/1' element={<VisualizarCliente/>}/>
-                    <Route path='/produtos/1' element={<VisualizarProduto/>}/>
-                    <Route path='/servicos/1' element={<VisualizarServico/>}/>
+
+                    <Route path='/adicionar_produto/1' element={<AddProduto/>}/>
+                    <Route path='/adicionar_servico/1' element={<AddServico/>}/>
                 </Routes>
             </Router>
         );
