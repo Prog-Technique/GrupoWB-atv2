@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
+import { Button } from 'react-bootstrap';
 import Header from "../../component/header";
 
 export class AddProduto extends Component {
@@ -7,6 +8,8 @@ export class AddProduto extends Component {
 
         return (
             <><Header /><main>
+
+                <Button className="button" variant="outline-dark" href='/clientes'>Voltar</Button>
 
                 <h1>Produtos adicionados ao Cliente</h1>
 

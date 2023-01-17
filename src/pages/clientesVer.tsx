@@ -12,7 +12,7 @@ export class VisualizarCliente extends Component {
                 <h1>Visualizar cliente: "Amanda"</h1>
                 <Button className="button" variant="outline-dark" href='/clientes'>Voltar</Button>
                 <div className='visu'>
-                <Card bg="white" text="dark" style={{ width: '18rem' }} className="mb-2">
+                <Card bg="white" text="dark" style={{ width: '18rem'}} className="mb-2">
                         <Card.Header>ID: 1</Card.Header>
                         <Card.Body>
                             <Card.Title>Amanda</Card.Title>
